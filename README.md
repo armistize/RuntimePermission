@@ -19,10 +19,9 @@ This project contains an **Android project** that demonstrates how to handle run
 >
 
 #Usages
+For checking and requesting runtime permission if needed.
 ```
         PermissionManager permissionManager = PermissionManager.getInstance();
-        
-        // Checking and requesting runtime permission if needed.
         if (!permissionManager.isGranted(this, Manifest.permission.READ_EXTERNAL_STORAGE)) {
             permissionManager.requestReadExternalStoragePermission(this);
         } else {
