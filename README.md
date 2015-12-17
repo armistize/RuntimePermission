@@ -1,7 +1,6 @@
 
 #Introduction
-The table below is a set of some permissions are considered as **dangerous** since Android 6.0 (Marshmallow, API level 23).
-So this project contains a **Android project** that demonstrates how to handle runtime permission in Image Picker sample project.
+This project contains an **Android project** that demonstrates how to handle runtime permission since Android 6.0 (Marshmallow, API 23) some permissions are considered as **dangerous** and listed in the table below
 
 | Permission Group  | Permissions |
 | ------------- | ------------- |
@@ -16,7 +15,7 @@ So this project contains a **Android project** that demonstrates how to handle r
 | STORAGE  | READ_EXTERNAL_STORAGE <br> WRITE_EXTERNAL_STORAGE  |
 
 >
-> **Tip:** If you are new to Android development please see [Detailed guides](https://github.com/armistize/RuntimePermission#detailed-guides) topic first.
+> **Note:** If you are new to Android development please see [Detailed guides](https://github.com/armistize/RuntimePermission#detailed-guides) topic first.
 >
 
 #Detailed guides
