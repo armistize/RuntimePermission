@@ -18,6 +18,18 @@ This project contains an **Android project** that demonstrates how to handle run
 > **Note:** If you are new to Android development please see [Detailed guides](https://github.com/armistize/RuntimePermission#detailed-guides) topic first.
 >
 
+#Usages
+```
+        PermissionManager permissionManager = PermissionManager.getInstance();
+        
+        // Checking and requesting runtime permission if needed.
+        if (!permissionManager.isGranted(this, Manifest.permission.READ_EXTERNAL_STORAGE)) {
+            permissionManager.requestReadExternalStoragePermission(this);
+        } else {
+            //Permission is granted. Do you work here.
+        }
+```
+
 #Detailed guides
 [Android API guide](http://developer.android.com/guide/index.html)  
 [System Permissions](http://developer.android.com/guide/topics/security/permissions.html#normal-dangerous)  
